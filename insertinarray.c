@@ -4,11 +4,11 @@ int arr[10],n,i,element,position;
 printf("Enter the no of elements u want to insert:");
 scanf("%d",&n);
 printf("Enter the array elements:");
-  for(i=0;i<=n;i++)
+  for(i=0;i<n;i++)
     scanf("%d", &arr[i]);
     printf("\nThe original array is- \n");
   
-  for(i=0;i<=n;i++)
+  for(i=0;i<n;i++)
     printf("%d",arr[i]);
   
   printf("\nEnter the element u want to insert in the array:");
