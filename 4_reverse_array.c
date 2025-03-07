@@ -1,3 +1,5 @@
+//REVERSE the given ARRAY
+
 #include<stdio.h>
 int main(){
 
